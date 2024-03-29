@@ -1,0 +1,29 @@
+.CounterApp {
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.btns button {
+  width: 40px;
+  height: 40px;
+  margin: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
+}
+.clear {
+  width: auto !important;
+  background-color: #2196f3;
+  border: 1px solid #2196f3;
+}
+.increment {
+  background-color: #2eba2e;
+  border: 1px solid #2eba2e;
+}
+.decrement {
+  background-color: #ff0000;
+  border: 1px solid #ff0000;
+}
